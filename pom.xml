@@ -23,12 +23,12 @@
 		<groupId>com.github.livesense</groupId>
 		<artifactId>org.liveSense.parent</artifactId>
 		<version>2-SNAPSHOT</version>
-		<relativePath>../org.liveSense.parent</relativePath>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>org.liveSense.framework.wro4j</artifactId>
 	<packaging>bundle</packaging>
-	<version>${wro4j.version}_1-SNAPSHOT</version>
+	<version>1.6.3_1-SNAPSHOT</version>
 	<name>liveSense :: Framework :: WRO4J</name>
 	<description>
 		liveSense WRO4J framework. WRO4J is Free and Open Source Java project which brings together almost all the modern web tools: JsHint, CssLint, JsMin, Google Closure compressor, YUI Compressor, UglifyJs, Dojo Shrinksafe, Css Variables Support, JSON Compression, Less, Sass, CoffeeScript and much more. In the same time, the aim is to keep it as simple as possible and as extensible as possible in order to be easily adapted to application specific needs.
@@ -186,13 +186,7 @@
 			<version>3.4</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.antlr</groupId>
-			<artifactId>stringtemplate</artifactId>
-			<version>3.2.1</version>
-		</dependency>
-
-		<dependency>
+        <dependency>
 			<groupId>org.antlr</groupId>
 			<artifactId>stringtemplate</artifactId>
 			<version>4.0.2</version>
