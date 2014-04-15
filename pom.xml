@@ -22,9 +22,10 @@
 	<parent>
 		<groupId>com.github.livesense</groupId>
 		<artifactId>org.liveSense.parent</artifactId>
-		<version>2-SNAPSHOT</version>
+		<version>1.0.3</version>
 		<relativePath>..</relativePath>
 	</parent>
+    <version>1.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.framework.wro4j.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.framework.wro4j.git</developerConnection>
@@ -33,7 +34,6 @@
 
 	<artifactId>org.liveSense.framework.wro4j</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.6.3_1-SNAPSHOT</version>
 	<name>liveSense :: Framework :: WRO4J</name>
 	<description>
 		liveSense WRO4J framework. WRO4J is Free and Open Source Java project which brings together almost all the modern web tools: JsHint, CssLint, JsMin, Google Closure compressor, YUI Compressor, UglifyJs, Dojo Shrinksafe, Css Variables Support, JSON Compression, Less, Sass, CoffeeScript and much more. In the same time, the aim is to keep it as simple as possible and as extensible as possible in order to be easily adapted to application specific needs.
@@ -80,7 +80,7 @@
 				<configuration>
 					<instructions>
 						<_exportcontents>
-							ro.isdc.wro4j.*;version=${project.version}
+							ro.isdc.wro4j.*;version=${wro4j.version}
 						</_exportcontents>
 
 						<Import-Package>
